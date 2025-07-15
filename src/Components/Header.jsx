@@ -5,7 +5,7 @@ import { MdClose } from "react-icons/md";
 import img from "../Slacksimgs/Logo/Logo.svg"
 import { RiUserLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
-import { PiShoppingCartSimpleLight } from "react-icons/pi";
+import { PiShoppingCartLight} from "react-icons/pi";
 
 export default function Header() {
   const [toggle, setToggle] = useState(false);
@@ -21,7 +21,7 @@ export default function Header() {
           <Navbar />
           <div className="flex justify-center gap-2">
             <Link to={"/Login"} className='text-black text-2xl cursor-pointer '><RiUserLine/></Link>
-            <Link to={"/"}><PiShoppingCartSimpleLight className="text-black text-2xl cursor-pointer " /></Link>
+            <Link to={"/cart"}><PiShoppingCartLight className="text-black text-2xl cursor-pointer " /></Link>
           </div>
         </div>
       </nav>

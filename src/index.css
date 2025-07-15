@@ -5,3 +5,15 @@
 /* @utility btn{
     @apply 
 } */
+:root{
+    --white:#FFFFFF;
+    --whiteopacity:#F5F4F4;
+    --lightgray:#DDDBDC;
+    --lightgray:#737373;
+    --grayDark:#4C4C4B;
+    --grayDark:#262626;
+    --black:#000000;
+    --red:#D0021B;
+    --whitelight:#E6DED8;
+}
+
