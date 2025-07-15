@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Categorys from './Pages/Categorys'
 import LoginPage from './Pages/LoginPages/LoginPage'
-import LandingPage from './Pages/LoginPages/LandingPage'
 import Header from './Components/Header'
+import LandingPage from './Pages/Pages-Fashion/LandingPage'
+import Categorys from './Pages/Pages-Fashion/Categorys'
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/Home'>
         <Route index element={<Categorys/>}/>
-        <Route path='new' element={<h1>Add CAt</h1>}/>
+        <Route path='new' element={<Cart/>}/>
         <Route path=':CategoryId' element={<h1>CAte Deltails</h1>}/>
         </Route>
         <Route path='/login' element={<LoginPage/>}/>
