@@ -1,13 +1,15 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Categorys from './Pages/Categorys'
-import LandingPage from './Pages/LandingPage'
 import LoginPage from './Pages/LoginPages/LoginPage'
+import LandingPage from './Pages/LoginPages/LandingPage'
+import Header from './Components/Header'
 
 export default function App() {
   return (
     <div className=''>
       <BrowserRouter>
+      <Header/>
       <Routes>
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/Home'>
