@@ -16,7 +16,7 @@ export default function Navbar() {
         <Link
           key={links.path}
           to={links.path}
-          className="text-gray-950 transition-colors duration-500 transform dark:text-gray-950 border-b-2 hover:border-b-cyan-800 mx-1.5 sm:mx-6"
+          className="text-gray-950 transition-colors duration-200 transform dark:text-gray-950 border-b-2 hover:border-b-cyan-800 mx-1.5 sm:mx-6"
         >
           {links.name}
         </Link>
