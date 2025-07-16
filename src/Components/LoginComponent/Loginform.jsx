@@ -4,7 +4,7 @@ import React from "react";
 export default function Loginform() {
   const initialValues = { email: "", password: "" };
   return (
-    <div className="w-1/2  container h-[80dvh] max-h-[100%] max-w-[100%] flex flex-col items-center justify-center bg-[#ffffff] ">
+    <div className="w-full  container h-[80dvh] max-h-[100%] max-w-[100%] flex flex-col items-center justify-center bg-[#ffffff] ">
       <Formik initialValues={initialValues}>
         <Form className="flex flex-col  items-center justify-center w-full h-[50dvh] gap-[1rem] bg-[#ffffff] ">
     <h1 className="text-3xl text-black ">Good to see you again.</h1>

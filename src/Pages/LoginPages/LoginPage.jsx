@@ -12,7 +12,7 @@ export default function LoginPage() {
           py-0.5
           mx-auto flex
           justify-center
-          items-center max-[100%]`}
+          items-center max-w-[100%]`}
     >
       {/* <LoginDesing /> */}
       <Loginform />
