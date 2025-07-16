@@ -2,15 +2,20 @@
 @plugin "daisyui"{
       themes:all;
 }
-/* @utility btn{
-    @apply 
-} */
+@utility input{
+    @apply bg-[var(--lightgray1)] border-1;
+
+}
+
+
+
+
 :root{
     --white:#FFFFFF;
     --whiteopacity:#F5F4F4;
-    --lightgray:#DDDBDC;
+    --lightgray1:#DDDBDC;
     --lightgray:#737373;
-    --grayDark:#4C4C4B;
+    --grayDark1:#4C4C4B;
     --grayDark:#262626;
     --black:#000000;
     --red:#D0021B;
