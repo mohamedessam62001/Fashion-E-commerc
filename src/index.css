@@ -3,11 +3,14 @@
       themes:all;
 }
 @utility input{
-    @apply bg-[var(--lightgray1)] border-1;
+    @apply bg-[var(--lightgray1)] border-1 hover:border-2;
 
 }
-@utility btn{
-    @apply bg-[var(--lightgray)] ;
+@utility btnn{
+    @apply bg-[var()] ;
+}
+@utility btns{
+    @apply bg-[var(--lightgray)] py-2 rounded-2xl hover:bg-white transition-all  duration-500 ;
 
 }
 

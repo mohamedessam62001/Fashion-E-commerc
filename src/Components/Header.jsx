@@ -14,7 +14,7 @@ export default function Header() {
       <nav className="bg-white shadow dark:bg-gray-50">
         <div className="container flex  items-center justify-between  p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
           <button className="btn btn-md block  text-white sm:hidden md:block lg:hidden " onClick={() => setToggle(!toggle)}>
-            {toggle ? <MdClose /> : <GiHamburgerMenu className="hover:bg-amber-50 transition-all duration-200 " />}
+            {toggle ? <MdClose className="btnn" /> : <GiHamburgerMenu className="btnn  " />}
           </button>
             <img src={img} className=""  />
 
