@@ -16,7 +16,7 @@ export default function Loginform() {
       password:values.password,
     }).then((res)=>{
       console.log(res.data);
-      Navigate("/")
+      // Navigate("/")
     })
 
   };
@@ -42,7 +42,7 @@ export default function Loginform() {
             placeholder=" Enter You Password"
           />
           <div className="flex">
-            <button type="Submit" className="btns text-black btn-neutral w-[200px]  ">
+            <button type="Submit" onClick={()=>{Navigate("/")}} className="btns text-black btn-neutral w-[200px]  ">
               Login
             </button>
           </div>
